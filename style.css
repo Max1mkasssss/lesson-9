@@ -1,10 +1,48 @@
-p{ 
+h1{ 
     font-family: 'Roboto', sans-serif;
     letter-spacing: 5px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    text-shadow: 5px 5px 3px black;
+    text-transform: uppercase;
+    width: 100;
 }
-.Raleway{ 
+
+
+/* .Raleway{ 
     font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
+} */
+
+p{ 
+    font-family: 'Exo 2', sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 31px;
+    text-indent: 20px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 3px black; 
+}
+/* p::first-letter{ 
+    color: red;
+    text-shadow: 2px 2px 3px red; 
+    font-size: 40px;
+} */
+
+*::selection{
+    color: aquamarine; 
+}
+span{ 
+     text-transform: capitalize;
+}
+a{ 
+    text-decoration: none;
+    /* display: flex;
+    justify-content: center; */
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
 }
